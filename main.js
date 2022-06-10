@@ -3,8 +3,8 @@ const line = require('@line/bot-sdk');
 const app = express();
 
 const config = {
-    channelAccessToken: 'yd6NYM9Hria1mALtfouqv2sEAaJfnlSx3Kq0SJYiMpO25ia8CzD6SfEXJGkLUREdAxXleifv/zpP0qeKOMHYS23+mCOs/uZ8J9r49WA3KQpccEd9KPr/SXhRXit3glKtOTlKiTjZbqShSVPOu8szaAdB04t89/1O/w1cDnyilFU=',
-    channelSecret: 'f42d0ad79fa44efa630bcf43fc74fbe8'
+    channelAccessToken: '',
+    channelSecret: ''
 };
 const client = new line.Client(config);
 
