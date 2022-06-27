@@ -3,7 +3,7 @@ const line = require('@line/bot-sdk');
 const app = express();
 
 const config = {
-    channelAccessToken: '',
+    channelAccessToken: '', // Check Line doc to get it 
     channelSecret: ''
 };
 const client = new line.Client(config);
